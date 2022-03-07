@@ -1,0 +1,42 @@
+/* #################################
+    Common CSS Style Start 
+####################################*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.btn-style{
+    background-color: #E02C6D;
+    border: none;
+    padding: 13px 30px;
+    color: white;
+    font-weight: bold;
+}
+/* ##########################
+    Common CSS Style End
+   #########################*/
+
+/* ##########################
+   Header CSS Style Start 
+   #########################*/
+header{
+    background-color: #2d25a0;
+}
+.navbar-light .navbar-nav a.nav-link {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav a.nav-link:hover {
+    color: white;
+}
+.navbar-light .navbar-nav a.nav-link:visited {
+    color: white;
+    border-bottom: 2px solid black;
+}
+.main-section:hover img.banner-img{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out .2s;
+}
+/* ###########################
+   Header CSS Style End 
+   ##########################*/
